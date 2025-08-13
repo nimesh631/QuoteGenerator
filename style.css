@@ -18,19 +18,24 @@ body.dark {
 }
 
 .container {
-    max-width: 500px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px gray;
+    max-width: 800px;
     margin: 50px auto;
     padding: 20px;
     text-align: center;
+    height: 400px;
 }
 
 #quoteBox{
-    margin: 20px 0;
+    margin: 20px auto;
     padding: 20px;
-    border: 2px solid #ccc;
+    border: 2px solid#ccc;
     border-radius: 10px;
     min-height: 100px;
     box-shadow: 5px 5px 5px gray;
+    max-width: 500px;
+    text-align:center;
 }
 
 .buttons button,
