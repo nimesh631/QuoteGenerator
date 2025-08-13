@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+         <h1>Quote Generator</h1>
+
+         <select id="categorySelect">
+            <option value="science">Science</option>
+            <option value="inspiration">Inspiration</option>
+         </select>
+
+         <div id="quoteBox">
+            <p id="quoteText">Select a Category to start</p>
+         </div>
+
+         <div class="buttons">
+            <button id="prevBtn">Previous</button>
+            <button id="nextBtn">Next</button>
+            <button id="randomBtn">Random</button>
+         </div>
+
+         <div class="controls">
+            <label for="themeSwitch">Dark Mode</label>
+            <input type="checkbox" id="themeSwitch">
+
+             <button id="increaseFont">A+</button>
+            <button id="decreaseFont">A-</button>
+         </div>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
