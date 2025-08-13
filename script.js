@@ -61,12 +61,14 @@ themeSwitch.addEventListener('click', ()=>{
 });
 
 increaseFont.addEventListener('click', ()=>{
+    if(fontSize <28){
     fontSize +=2;
     quoteText.style.fontSize = `${fontSize}px`;
+    }
 });
 
 decreaseFont.addEventListener('click', ()=>{
-    if(fontSize > 10){
+    if(fontSize > 12){
         fontSize -=2;
          quoteText.style.fontSize = `${fontSize}px`;
     }
